@@ -28,6 +28,9 @@ function HowItWorks() {
       <div>
         <p className="text-sm font-medium text-teal-600">· How It Works</p>
         <h2 className="mt-3 text-3xl font-bold text-slate-900">Three techniques, working together</h2>
+        <p className="mt-4 max-w-xl text-sm leading-6 text-gray-500">
+          The system combines uncertainty handling, schedule discovery, and numerical refinement to make battery decisions that balance renewable energy use, operating cost, and grid reliance across every hour of the day.
+        </p>
         <div className="mt-8 space-y-3">
           {techniques.map((technique, index) => {
             const isOpen = openIndex === index
@@ -71,6 +74,14 @@ function HowItWorks() {
           <p className="text-2xl font-bold text-lime-600">60%</p>
           <p className="text-xs text-gray-500">Cost Reduction vs Baseline</p>
         </div>
+        <a
+          href="https://github.com/Rajankarananya/microgrid-scoa-project"
+          target="_blank"
+          rel="noreferrer"
+          className="mt-5 inline-flex items-center font-medium text-teal-700 transition-colors hover:text-teal-900"
+        >
+          Explore the project on GitHub <span className="ml-2" aria-hidden="true">→</span>
+        </a>
       </div>
     </section>
   )

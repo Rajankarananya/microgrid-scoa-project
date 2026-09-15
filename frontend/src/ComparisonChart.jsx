@@ -26,7 +26,7 @@ function ComparisonChart({ week }) {
 
   useEffect(() => {
     axios
-      .get(`http://127.0.0.1:8000/api/compare?week=${week}`)
+      .get(`${import.meta.env.VITE_API_URL}/api/compare?week=${week}`)
       .then((response) => setCompareData(response.data))
       .catch((error) => {
         console.error(error)

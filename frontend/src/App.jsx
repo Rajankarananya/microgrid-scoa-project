@@ -34,7 +34,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get(`http://127.0.0.1:8000/api/schedule?week=${selectedWeek}&method=${selectedMethod}`)
+      .get(`${import.meta.env.VITE_API_URL}/api/schedule?week=${selectedWeek}&method=${selectedMethod}`)
       .then((response) => setScheduleData(response.data))
       .catch((error) => {
         console.error(error)
@@ -59,7 +59,7 @@ function App() {
   }
 
   const chartData = {
-    labels: scheduleData.hours.map((hour) => `${hour}:00`),
+    labels: scheduleData.hours.map((hour) => `Hour ${hour}`),
     datasets: [
       {
         label: 'Battery Power (kW)',

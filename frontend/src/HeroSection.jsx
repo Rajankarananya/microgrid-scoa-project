@@ -11,7 +11,7 @@ function HeroSection() {
           <a href="#comparison" className="transition-colors hover:text-lime-300">Comparison</a>
         </div>
         <div className="flex items-center gap-4">
-          <a href="#" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-white/80 transition-colors hover:text-white">
+          <a href="https://github.com/Rajankarananya/microgrid-scoa-project" target="_blank" rel="noreferrer" className="flex items-center gap-2 text-white/80 transition-colors hover:text-white">
             <svg viewBox="0 0 20 20" width="20" height="20" fill="currentColor" aria-hidden="true">
               <path d="M10 1.5a8.5 8.5 0 0 0-2.69 16.56c.43.08.59-.19.59-.42v-1.63c-2.4.52-2.91-1.02-2.91-1.02-.39-.99-.95-1.25-.95-1.25-.78-.53.06-.52.06-.52.86.06 1.31.89 1.31.89.77 1.31 2.02.93 2.51.71.08-.55.3-.93.55-1.14-1.92-.22-3.94-.96-3.94-4.27 0-.94.34-1.7.89-2.3-.09-.22-.39-1.09.08-2.27 0 0 .73-.23 2.35.88A8.2 8.2 0 0 1 10 5.45c.74 0 1.48.1 2.17.29 1.61-1.11 2.34-.88 2.34-.88.47 1.18.18 2.05.09 2.27.55.6.88 1.36.88 2.3 0 3.32-2.02 4.05-3.95 4.27.31.27.58.8.58 1.62v2.4c0 .23.16.5.6.42A8.5 8.5 0 0 0 10 1.5Z" />
             </svg>

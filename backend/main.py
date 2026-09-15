@@ -6,12 +6,13 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
+    # TODO: restrict allow_origins to the actual Vercel frontend URL once deployed, for production security.
     allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-with open("fake_results.json") as f:
+with open("results.json") as f:
     RESULTS = json.load(f)
 
 @app.get("/")
