@@ -4,7 +4,7 @@ A full-stack renewable microgrid scheduling system that evaluates battery operat
 
 ## Live Deployments
 
-- **Frontend:** [Vercel](https://YOUR_VERCEL_PROJECT.vercel.app) - replace the placeholder with the deployed Vercel URL.
+- **Frontend:** [Vercel](https://microgrid-scoa-project.vercel.app/) 
 - **Backend API:** [Render](https://microgrid-scoa-project.onrender.com)
 - **Repository:** [GitHub](https://github.com/Rajankarananya/microgrid-scoa-project)
 
