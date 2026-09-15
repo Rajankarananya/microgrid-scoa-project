@@ -59,15 +59,15 @@ function HeroSection() {
         className="relative z-10 mx-auto -mt-16 grid max-w-5xl grid-cols-2 divide-x divide-gray-100 rounded-2xl bg-white shadow-xl md:grid-cols-4"
       >
         <div className="p-6 text-center">
-          <p className="text-3xl font-bold text-teal-600">79.5%</p>
+          <p className="text-3xl font-bold text-teal-600">47.56%</p>
           <p className="text-sm text-gray-500">Renewable Utilization</p>
         </div>
         <div className="p-6 text-center">
-          <p className="text-3xl font-bold text-violet-600">20.5%</p>
+          <p className="text-3xl font-bold text-violet-600">3.89%</p>
           <p className="text-sm text-gray-500">Grid Dependency</p>
         </div>
         <div className="p-6 text-center">
-          <p className="text-3xl font-bold text-amber-600">118.3</p>
+          <p className="text-3xl font-bold text-amber-600">0.86</p>
           <p className="text-sm text-gray-500">Optimized Cost</p>
         </div>
         <div className="p-6 text-center">

@@ -8,7 +8,7 @@ const techniques = [
   },
   {
     title: 'Genetic Algorithm',
-    content: 'Searches thousands of possible 24-hour schedules and evolves toward the strongest structural plan.',
+    content: 'Searches thousands of possible multi-day schedules and evolves toward the strongest structural plan.',
   },
   {
     title: 'Particle Swarm Optimization',
